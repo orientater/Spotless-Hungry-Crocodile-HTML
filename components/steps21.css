@@ -6,7 +6,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("https://raw.githubusercontent.com/orientater/Spotless-Hungry-Crocodile-HTML/refs/heads/main/components/unsplash-image%20(1).jpeg");
+  background-image: url("https://play.teleporthq.io/static/svg/default-img.svg");
 }
  
 .steps21-max-width {
@@ -31,7 +31,22 @@
 }
  
 .steps21-text10 {
+  color: #ffffff;
   text-transform: capitalize;
+}
+ 
+.steps21-text11 {
+  fill: #ffffff;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+ 
+.steps21-text12 {
+  font-size: 25px;
+}
+ 
+.steps21-text13 {
+  font-size: 25px;
 }
  
 .steps21-actions {
@@ -48,8 +63,10 @@
   top: 10%;
   position: sticky;
   transform: rotate(-2deg);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 3px;
   margin-bottom: var(--dl-layout-space-twounits);
-  background-color: var(--dl-color-theme-accent1);
+  background-image: linear-gradient(to right, #fc00ff 0%, #00dbde 100%);
 }
  
 .steps21-text17 {
@@ -69,8 +86,10 @@
   top: 10%;
   position: sticky;
   transform: rotate(2deg);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 3px;
   margin-bottom: var(--dl-layout-space-twounits);
-  background-color: var(--dl-color-theme-accent2);
+  background-image: linear-gradient(225deg, rgb(252, 0, 255) 0.00%,rgb(0, 219, 222) 100.00%);
 }
  
 .steps21-text20 {
@@ -90,8 +109,10 @@
   top: 10%;
   position: sticky;
   transform: rotate(-2deg);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 3px;
   margin-bottom: var(--dl-layout-space-twounits);
-  background-color: var(--dl-color-theme-accent1);
+  background-image: linear-gradient(180deg, rgb(252, 0, 255) 0.00%,rgb(0, 219, 222) 100.00%);
 }
  
 .steps21-text23 {
@@ -111,7 +132,9 @@
   top: 10%;
   position: sticky;
   transform: rotate(2deg);
-  background-color: var(--dl-color-theme-accent2);
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 3px;
+  background-image: linear-gradient(0deg, rgb(252, 0, 255) 0.00%,rgb(0, 219, 222) 100.00%);
 }
  
 .steps21-text26 {
@@ -190,6 +213,10 @@
  
 .steps21-text35 {
   display: inline-block;
+}
+ 
+.steps21root-class-name {
+  background-image: url('https://raw.githubusercontent.com/orientater/Spotless-Hungry-Crocodile-HTML/refs/heads/main/components/unsplash-image%20(2).jpeg');
 }
  
 @media(max-width: 991px) {

@@ -22,7 +22,6 @@
  
 .toast6-title {
   color: #fdfdfd;
-  background-color: #000000;
 }
  
 .toast6-fragment {
@@ -31,6 +30,11 @@
  
 .toast6-text {
   display: inline-block;
+}
+ 
+.toast6root-class-name {
+  background-color: transparent;
+  background-image: linear-gradient(225deg, rgba(0, 0, 0, 0.2) 0.00%,rgba(0, 0, 0, 0.8) 18.00%,rgba(0, 0, 0, 0.8) 19.00%,rgba(0, 0, 0, 0.8) 21.00%,rgba(0, 0, 0, 0.8) 23.00%,rgba(0, 0, 0, 0.8) 25.00%,rgba(0, 0, 0, 0.8) 26.00%,rgba(0, 0, 0, 0.8) 27.00%);
 }
  
 @media(max-width: 767px) {

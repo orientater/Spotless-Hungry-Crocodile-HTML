@@ -17,37 +17,16 @@
   flex-direction: column;
 }
  
-.footer4-content {
-  gap: var(--dl-layout-space-twounits);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
- 
-.footer4-logo1 {
-  gap: 24px;
-  display: flex;
-  overflow: hidden;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.footer4-logo2 {
-  height: 2rem;
-}
- 
-.footer4-links {
-  gap: var(--dl-layout-space-twounits);
-  display: flex;
-  align-items: flex-start;
-}
- 
 .footer4-credits {
   gap: var(--dl-layout-space-twounits);
   display: flex;
   align-self: stretch;
   align-items: center;
   flex-direction: column;
+}
+ 
+.footer4-divider {
+  background-color: #ffffff;
 }
  
 .footer4-row {
@@ -63,79 +42,12 @@
   align-items: flex-start;
 }
  
-.footer4-footer-links {
-  gap: 24px;
-  display: flex;
-  align-items: flex-start;
+.footer4-text {
+  color: #ffffff;
 }
  
-.footer4-text11 {
-  fill: var(--dl-color-theme-neutral-dark);
-  color: var(--dl-color-theme-neutral-dark);
-}
- 
-.footer4-fragment1 {
-  display: contents;
-}
- 
-.footer4-text14 {
-  display: inline-block;
-}
- 
-.footer4-fragment2 {
-  display: contents;
-}
- 
-.footer4-text15 {
-  display: inline-block;
-}
- 
-.footer4-fragment3 {
-  display: contents;
-}
- 
-.footer4-text16 {
-  display: inline-block;
-}
- 
-.footer4-fragment4 {
-  display: contents;
-}
- 
-.footer4-text17 {
-  display: inline-block;
-}
- 
-.footer4-fragment5 {
-  display: contents;
-}
- 
-.footer4-text18 {
-  display: inline-block;
-}
- 
-.footer4-fragment6 {
-  display: contents;
-}
- 
-.footer4-text19 {
-  display: inline-block;
-}
- 
-.footer4-fragment7 {
-  display: contents;
-}
- 
-.footer4-text20 {
-  display: inline-block;
-}
- 
-.footer4-fragment8 {
-  display: contents;
-}
- 
-.footer4-text21 {
-  display: inline-block;
+.footer4root-class-name {
+  background-color: #000000;
 }
  
 @media(max-width: 767px) {
@@ -150,13 +62,5 @@
 @media(max-width: 479px) {
   .footer4-max-width {
     gap: var(--dl-layout-space-oneandhalfunits);
-  }
-  .footer4-links {
-    flex-direction: column;
-  }
-  .footer4-footer-links {
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
   }
 }
